@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Sorting Algorithms</title>
+</head>
+  
+<body>
+    <br />
+    <div class="slidecontainer" id=arraySize>
+        <input type="range" min="1" max="250" value="25" class="slider" id="myArraySize">
+        Array Size
+        <a id=arraySizeTxt>25</a>
+    </div>
+    <p class="header">Sorting Algorithm Visualiser</p>
+    <div class="slidecontainer" id=shuffleCount>
+        <input type="range" min="1" max="1000" value="50" class="slider" id="myRange">
+        Shuffle Count
+        <a id=shuffleCountTxt>50</a>
+    </div>
+    <button id="shuffle">Shuffle</button>
+    <button id="bblSrtBtn">Bubble Sort</button>
+    <button id="slctSrtBtn">Selection Sort</button>
+    <div id="array"></div>
+    <script src="script.js"></script>
+</body>
+  
+</html>
